@@ -1,6 +1,11 @@
 {
   "files": [
     {
+      "file": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
       "file": ".gitignore",
       "bytes": 206,
       "sha256": "c1c1be2a25129485d1bb9dd8d261791a3aa841945e0e09e8dd35b366e3097cd3"

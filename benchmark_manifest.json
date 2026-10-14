@@ -1,0 +1,217 @@
+{
+  "tasks": [
+    {
+      "tag": "battery_outage_2026101301",
+      "denominator": 12
+    },
+    {
+      "tag": "battery_outage_2026101302",
+      "denominator": 12
+    },
+    {
+      "tag": "battery_outage_2026101303",
+      "denominator": 12
+    },
+    {
+      "tag": "battery_readiness_2026101301",
+      "denominator": 12
+    },
+    {
+      "tag": "battery_readiness_2026101302",
+      "denominator": 12
+    },
+    {
+      "tag": "battery_readiness_2026101303",
+      "denominator": 12
+    },
+    {
+      "tag": "deadline_2026101301",
+      "denominator": 12
+    },
+    {
+      "tag": "deadline_2026101302",
+      "denominator": 12
+    },
+    {
+      "tag": "deadline_2026101303",
+      "denominator": 12
+    },
+    {
+      "tag": "flat_reference_2026101301",
+      "denominator": 12
+    },
+    {
+      "tag": "flat_reference_2026101302",
+      "denominator": 12
+    },
+    {
+      "tag": "flat_reference_2026101303",
+      "denominator": 12
+    },
+    {
+      "tag": "long_duty_2026101301",
+      "denominator": 16
+    },
+    {
+      "tag": "long_duty_2026101302",
+      "denominator": 16
+    },
+    {
+      "tag": "long_duty_2026101303",
+      "denominator": 16
+    },
+    {
+      "tag": "ridge_communication_2026101301",
+      "denominator": 12
+    },
+    {
+      "tag": "ridge_communication_2026101302",
+      "denominator": 12
+    },
+    {
+      "tag": "ridge_communication_2026101303",
+      "denominator": 12
+    },
+    {
+      "tag": "transport_energy_2026101301",
+      "denominator": 12
+    },
+    {
+      "tag": "transport_energy_2026101302",
+      "denominator": 12
+    },
+    {
+      "tag": "transport_energy_2026101303",
+      "denominator": 12
+    }
+  ],
+  "input_sha256": {
+    "benchmark/inputs/battery_outage_2026101301/baseline.npz": "c66f231b9e5c235cb508d21ea512f1d1b28f5097b96023dc0920be705e83e543",
+    "benchmark/inputs/battery_outage_2026101301/contract.json": "34143682000959c2814905e511204dc9283cc777ef13aed1c392e29bb2d99b17",
+    "benchmark/inputs/battery_outage_2026101301/dem.npz": "2ab920d1e26bf3d2045ced2d3b96947d4ce163d41f883742cb56ced302c2f1a9",
+    "benchmark/inputs/battery_outage_2026101301/full_mother.npz": "eced381a87cd51d6e2734e94aa28f3fb14ef708820fe84b4584ed0e0faa7353b",
+    "benchmark/inputs/battery_outage_2026101301/input_aware_48.npz": "9d6d4315b701eaca48f68ce56e06abd0ee7f7b31ab1d747465e178239a9a9c96",
+    "benchmark/inputs/battery_outage_2026101301/task.json": "4a995c65836dc6c74b31b9d6e0c2d6890e3fe50b9ca550478da0f0f5a64bbee7",
+    "benchmark/inputs/battery_outage_2026101302/baseline.npz": "c66f231b9e5c235cb508d21ea512f1d1b28f5097b96023dc0920be705e83e543",
+    "benchmark/inputs/battery_outage_2026101302/contract.json": "3ef13bcb0b5bb2ae34d03ecaa18191acbcc53dc6676cdaaefeb3ff0f42c55c15",
+    "benchmark/inputs/battery_outage_2026101302/dem.npz": "2ab920d1e26bf3d2045ced2d3b96947d4ce163d41f883742cb56ced302c2f1a9",
+    "benchmark/inputs/battery_outage_2026101302/full_mother.npz": "eced381a87cd51d6e2734e94aa28f3fb14ef708820fe84b4584ed0e0faa7353b",
+    "benchmark/inputs/battery_outage_2026101302/input_aware_48.npz": "9d6d4315b701eaca48f68ce56e06abd0ee7f7b31ab1d747465e178239a9a9c96",
+    "benchmark/inputs/battery_outage_2026101302/task.json": "495e79e172d88239d0705466c565ddd4e05b2b979dfddb63ab7fe9f212609e0b",
+    "benchmark/inputs/battery_outage_2026101303/baseline.npz": "c66f231b9e5c235cb508d21ea512f1d1b28f5097b96023dc0920be705e83e543",
+    "benchmark/inputs/battery_outage_2026101303/contract.json": "343dd35fe72655218ede0b0bac1849e651b7de2ac1e666b9950694516fdbd390",
+    "benchmark/inputs/battery_outage_2026101303/dem.npz": "2ab920d1e26bf3d2045ced2d3b96947d4ce163d41f883742cb56ced302c2f1a9",
+    "benchmark/inputs/battery_outage_2026101303/full_mother.npz": "eced381a87cd51d6e2734e94aa28f3fb14ef708820fe84b4584ed0e0faa7353b",
+    "benchmark/inputs/battery_outage_2026101303/input_aware_48.npz": "9d6d4315b701eaca48f68ce56e06abd0ee7f7b31ab1d747465e178239a9a9c96",
+    "benchmark/inputs/battery_outage_2026101303/task.json": "a84e9f570a0701b1fb44b397169a91aff812a4eb59d145066749898b2926edb4",
+    "benchmark/inputs/battery_readiness_2026101301/baseline.npz": "c66f231b9e5c235cb508d21ea512f1d1b28f5097b96023dc0920be705e83e543",
+    "benchmark/inputs/battery_readiness_2026101301/contract.json": "68eb98ff40f98955d0ee02f2d8a8be9f8a3fb1033f18a23af07eb163570f57d6",
+    "benchmark/inputs/battery_readiness_2026101301/dem.npz": "2ab920d1e26bf3d2045ced2d3b96947d4ce163d41f883742cb56ced302c2f1a9",
+    "benchmark/inputs/battery_readiness_2026101301/full_mother.npz": "eced381a87cd51d6e2734e94aa28f3fb14ef708820fe84b4584ed0e0faa7353b",
+    "benchmark/inputs/battery_readiness_2026101301/input_aware_48.npz": "9d6d4315b701eaca48f68ce56e06abd0ee7f7b31ab1d747465e178239a9a9c96",
+    "benchmark/inputs/battery_readiness_2026101301/task.json": "afcc3d20b818ec2070b92a8c0fb9f3af66662f49f4974c97d34bfed48a91f13b",
+    "benchmark/inputs/battery_readiness_2026101302/baseline.npz": "c66f231b9e5c235cb508d21ea512f1d1b28f5097b96023dc0920be705e83e543",
+    "benchmark/inputs/battery_readiness_2026101302/contract.json": "d4484775b608a406c8f25c6c13941a66762e4548e2c42e4307c2543df64387a5",
+    "benchmark/inputs/battery_readiness_2026101302/dem.npz": "2ab920d1e26bf3d2045ced2d3b96947d4ce163d41f883742cb56ced302c2f1a9",
+    "benchmark/inputs/battery_readiness_2026101302/full_mother.npz": "eced381a87cd51d6e2734e94aa28f3fb14ef708820fe84b4584ed0e0faa7353b",
+    "benchmark/inputs/battery_readiness_2026101302/input_aware_48.npz": "9d6d4315b701eaca48f68ce56e06abd0ee7f7b31ab1d747465e178239a9a9c96",
+    "benchmark/inputs/battery_readiness_2026101302/task.json": "9a76c51a4947632db46037b2b406020cdc8915b3c54f85850444a1c026e67e52",
+    "benchmark/inputs/battery_readiness_2026101303/baseline.npz": "c66f231b9e5c235cb508d21ea512f1d1b28f5097b96023dc0920be705e83e543",
+    "benchmark/inputs/battery_readiness_2026101303/contract.json": "f9991609503692bf80aa5356c5d971af832457fe7a0a60e2bb61b81367f955f7",
+    "benchmark/inputs/battery_readiness_2026101303/dem.npz": "2ab920d1e26bf3d2045ced2d3b96947d4ce163d41f883742cb56ced302c2f1a9",
+    "benchmark/inputs/battery_readiness_2026101303/full_mother.npz": "eced381a87cd51d6e2734e94aa28f3fb14ef708820fe84b4584ed0e0faa7353b",
+    "benchmark/inputs/battery_readiness_2026101303/input_aware_48.npz": "9d6d4315b701eaca48f68ce56e06abd0ee7f7b31ab1d747465e178239a9a9c96",
+    "benchmark/inputs/battery_readiness_2026101303/task.json": "3c71cdfd0f19639f5e96b50aa1b460e1e92b67b3fa092ccab5236a557ab4ffde",
+    "benchmark/inputs/deadline_2026101301/baseline.npz": "01de73afae5ee9a5dff33ab5af6bb8250cc037326abdf11d1e69c327f280b290",
+    "benchmark/inputs/deadline_2026101301/contract.json": "b454a0859552a4db6f3549a6ca7f28cdf528547f3315c0e20e956dd2fa67d8f1",
+    "benchmark/inputs/deadline_2026101301/dem.npz": "7a0eb00083dc69056760be14c3feb2ca5ae9e8043d691b1136aa28d2ecf8dacd",
+    "benchmark/inputs/deadline_2026101301/full_mother.npz": "b47f83be8f37779cec115cbf8730d85609243175b90344d5f67a57ae66588625",
+    "benchmark/inputs/deadline_2026101301/input_aware_48.npz": "abf22b554e62aceb35313f0cf9c3611fa3709c730e48031fa4851805ed4de954",
+    "benchmark/inputs/deadline_2026101301/task.json": "714c398cb6ccba188089ead3c35d3e89c5f89ad3e70733de5ba45983b2d85033",
+    "benchmark/inputs/deadline_2026101302/baseline.npz": "01de73afae5ee9a5dff33ab5af6bb8250cc037326abdf11d1e69c327f280b290",
+    "benchmark/inputs/deadline_2026101302/contract.json": "da6ddb28c76d1ed983dd1175ebee515ee0142b882dd22d1e959487cb3e246197",
+    "benchmark/inputs/deadline_2026101302/dem.npz": "7a0eb00083dc69056760be14c3feb2ca5ae9e8043d691b1136aa28d2ecf8dacd",
+    "benchmark/inputs/deadline_2026101302/full_mother.npz": "b47f83be8f37779cec115cbf8730d85609243175b90344d5f67a57ae66588625",
+    "benchmark/inputs/deadline_2026101302/input_aware_48.npz": "abf22b554e62aceb35313f0cf9c3611fa3709c730e48031fa4851805ed4de954",
+    "benchmark/inputs/deadline_2026101302/task.json": "a0767886fb18b9bfb6e3c53b60ad33402e55e05bf0e98ec9e745936c34d3041a",
+    "benchmark/inputs/deadline_2026101303/baseline.npz": "01de73afae5ee9a5dff33ab5af6bb8250cc037326abdf11d1e69c327f280b290",
+    "benchmark/inputs/deadline_2026101303/contract.json": "585fb845a209be42da4b3379fdaae30d53524fd7c769506f06916009b5007e52",
+    "benchmark/inputs/deadline_2026101303/dem.npz": "7a0eb00083dc69056760be14c3feb2ca5ae9e8043d691b1136aa28d2ecf8dacd",
+    "benchmark/inputs/deadline_2026101303/full_mother.npz": "b47f83be8f37779cec115cbf8730d85609243175b90344d5f67a57ae66588625",
+    "benchmark/inputs/deadline_2026101303/input_aware_48.npz": "abf22b554e62aceb35313f0cf9c3611fa3709c730e48031fa4851805ed4de954",
+    "benchmark/inputs/deadline_2026101303/task.json": "aae6254bca6c912752445ae91d847fc36bb57748c2164dcdb066ae021a80dcbf",
+    "benchmark/inputs/flat_reference_2026101301/baseline.npz": "01de73afae5ee9a5dff33ab5af6bb8250cc037326abdf11d1e69c327f280b290",
+    "benchmark/inputs/flat_reference_2026101301/contract.json": "7a176a6d9417f81495e295e967bda7b28227a0c4739d45659ca950f9471f117d",
+    "benchmark/inputs/flat_reference_2026101301/dem.npz": "7a0eb00083dc69056760be14c3feb2ca5ae9e8043d691b1136aa28d2ecf8dacd",
+    "benchmark/inputs/flat_reference_2026101301/full_mother.npz": "b47f83be8f37779cec115cbf8730d85609243175b90344d5f67a57ae66588625",
+    "benchmark/inputs/flat_reference_2026101301/input_aware_48.npz": "abf22b554e62aceb35313f0cf9c3611fa3709c730e48031fa4851805ed4de954",
+    "benchmark/inputs/flat_reference_2026101301/task.json": "ecbb88e0112d4d51eb40dff2dcbefe7f952f6d9a6d752280f5ceb1a2ac306084",
+    "benchmark/inputs/flat_reference_2026101302/baseline.npz": "01de73afae5ee9a5dff33ab5af6bb8250cc037326abdf11d1e69c327f280b290",
+    "benchmark/inputs/flat_reference_2026101302/contract.json": "0fb6972f5f36126e716a6d684d065635bf8a0e4203d776c372282707a152ce18",
+    "benchmark/inputs/flat_reference_2026101302/dem.npz": "7a0eb00083dc69056760be14c3feb2ca5ae9e8043d691b1136aa28d2ecf8dacd",
+    "benchmark/inputs/flat_reference_2026101302/full_mother.npz": "b47f83be8f37779cec115cbf8730d85609243175b90344d5f67a57ae66588625",
+    "benchmark/inputs/flat_reference_2026101302/input_aware_48.npz": "abf22b554e62aceb35313f0cf9c3611fa3709c730e48031fa4851805ed4de954",
+    "benchmark/inputs/flat_reference_2026101302/task.json": "ae81c865c23d172776573e3622e0421e7bd919cacd5215537c0b07070cf9089f",
+    "benchmark/inputs/flat_reference_2026101303/baseline.npz": "01de73afae5ee9a5dff33ab5af6bb8250cc037326abdf11d1e69c327f280b290",
+    "benchmark/inputs/flat_reference_2026101303/contract.json": "439fd9874f08c9d5045fe4b844910dba6fd5cd0df9a52021d2882d1068d4b066",
+    "benchmark/inputs/flat_reference_2026101303/dem.npz": "7a0eb00083dc69056760be14c3feb2ca5ae9e8043d691b1136aa28d2ecf8dacd",
+    "benchmark/inputs/flat_reference_2026101303/full_mother.npz": "b47f83be8f37779cec115cbf8730d85609243175b90344d5f67a57ae66588625",
+    "benchmark/inputs/flat_reference_2026101303/input_aware_48.npz": "abf22b554e62aceb35313f0cf9c3611fa3709c730e48031fa4851805ed4de954",
+    "benchmark/inputs/flat_reference_2026101303/task.json": "d6107f4f0f455d69d858bb9839ed6bd73a38fa54f1bf7f4ae51fab406df1630e",
+    "benchmark/inputs/long_duty_2026101301/baseline.npz": "c66f231b9e5c235cb508d21ea512f1d1b28f5097b96023dc0920be705e83e543",
+    "benchmark/inputs/long_duty_2026101301/contract.json": "71fc15487164a1f89f73573273b62c4f954348df289d8409e1749bee64b610f3",
+    "benchmark/inputs/long_duty_2026101301/dem.npz": "2ab920d1e26bf3d2045ced2d3b96947d4ce163d41f883742cb56ced302c2f1a9",
+    "benchmark/inputs/long_duty_2026101301/full_mother.npz": "eced381a87cd51d6e2734e94aa28f3fb14ef708820fe84b4584ed0e0faa7353b",
+    "benchmark/inputs/long_duty_2026101301/input_aware_48.npz": "9d6d4315b701eaca48f68ce56e06abd0ee7f7b31ab1d747465e178239a9a9c96",
+    "benchmark/inputs/long_duty_2026101301/task.json": "59add4ffe35d8bf138e55d31c4713074f5fbe54612b1034a366c93e16f13d5ef",
+    "benchmark/inputs/long_duty_2026101302/baseline.npz": "c66f231b9e5c235cb508d21ea512f1d1b28f5097b96023dc0920be705e83e543",
+    "benchmark/inputs/long_duty_2026101302/contract.json": "e083d71032682f4a2f9ef42addbc96f7bbd85abe6c6045296e6e5a712acf1f5a",
+    "benchmark/inputs/long_duty_2026101302/dem.npz": "2ab920d1e26bf3d2045ced2d3b96947d4ce163d41f883742cb56ced302c2f1a9",
+    "benchmark/inputs/long_duty_2026101302/full_mother.npz": "eced381a87cd51d6e2734e94aa28f3fb14ef708820fe84b4584ed0e0faa7353b",
+    "benchmark/inputs/long_duty_2026101302/input_aware_48.npz": "9d6d4315b701eaca48f68ce56e06abd0ee7f7b31ab1d747465e178239a9a9c96",
+    "benchmark/inputs/long_duty_2026101302/task.json": "4a264b416e0da309e4e876c7174be81205bbf59af1835f18e03b46d8820e92ba",
+    "benchmark/inputs/long_duty_2026101303/baseline.npz": "c66f231b9e5c235cb508d21ea512f1d1b28f5097b96023dc0920be705e83e543",
+    "benchmark/inputs/long_duty_2026101303/contract.json": "591d5b21c653ddade4e4c22bcabb79dd266164d2ad4c749162f944daa92485be",
+    "benchmark/inputs/long_duty_2026101303/dem.npz": "2ab920d1e26bf3d2045ced2d3b96947d4ce163d41f883742cb56ced302c2f1a9",
+    "benchmark/inputs/long_duty_2026101303/full_mother.npz": "eced381a87cd51d6e2734e94aa28f3fb14ef708820fe84b4584ed0e0faa7353b",
+    "benchmark/inputs/long_duty_2026101303/input_aware_48.npz": "9d6d4315b701eaca48f68ce56e06abd0ee7f7b31ab1d747465e178239a9a9c96",
+    "benchmark/inputs/long_duty_2026101303/task.json": "890fb65bfff601e651f914f46651bf33dbfc77f3cbdad7cf3c50f7b98bf811f9",
+    "benchmark/inputs/ridge_communication_2026101301/baseline.npz": "c66f231b9e5c235cb508d21ea512f1d1b28f5097b96023dc0920be705e83e543",
+    "benchmark/inputs/ridge_communication_2026101301/contract.json": "348d36bfbc530b32df620a3c94690426f164c52f83e6a96daf1b2faed87afe78",
+    "benchmark/inputs/ridge_communication_2026101301/dem.npz": "2ab920d1e26bf3d2045ced2d3b96947d4ce163d41f883742cb56ced302c2f1a9",
+    "benchmark/inputs/ridge_communication_2026101301/full_mother.npz": "eced381a87cd51d6e2734e94aa28f3fb14ef708820fe84b4584ed0e0faa7353b",
+    "benchmark/inputs/ridge_communication_2026101301/input_aware_48.npz": "9d6d4315b701eaca48f68ce56e06abd0ee7f7b31ab1d747465e178239a9a9c96",
+    "benchmark/inputs/ridge_communication_2026101301/task.json": "e1c652cf80a970a656ea45249383c477bc9b71cc38efe606f7cdab93194c41e4",
+    "benchmark/inputs/ridge_communication_2026101302/baseline.npz": "c66f231b9e5c235cb508d21ea512f1d1b28f5097b96023dc0920be705e83e543",
+    "benchmark/inputs/ridge_communication_2026101302/contract.json": "6129b20325ee3320ce00841233c319ffcf681a9fd0037786275a2cfed02fed68",
+    "benchmark/inputs/ridge_communication_2026101302/dem.npz": "2ab920d1e26bf3d2045ced2d3b96947d4ce163d41f883742cb56ced302c2f1a9",
+    "benchmark/inputs/ridge_communication_2026101302/full_mother.npz": "eced381a87cd51d6e2734e94aa28f3fb14ef708820fe84b4584ed0e0faa7353b",
+    "benchmark/inputs/ridge_communication_2026101302/input_aware_48.npz": "9d6d4315b701eaca48f68ce56e06abd0ee7f7b31ab1d747465e178239a9a9c96",
+    "benchmark/inputs/ridge_communication_2026101302/task.json": "580c06d0986926760b67f5f13a6e529196e9701311d67c3e8d377a0b2ddbbea2",
+    "benchmark/inputs/ridge_communication_2026101303/baseline.npz": "c66f231b9e5c235cb508d21ea512f1d1b28f5097b96023dc0920be705e83e543",
+    "benchmark/inputs/ridge_communication_2026101303/contract.json": "254aa24b01849eb673891fe72b612a48740cc477fcbe802e152c6775214f88f9",
+    "benchmark/inputs/ridge_communication_2026101303/dem.npz": "2ab920d1e26bf3d2045ced2d3b96947d4ce163d41f883742cb56ced302c2f1a9",
+    "benchmark/inputs/ridge_communication_2026101303/full_mother.npz": "eced381a87cd51d6e2734e94aa28f3fb14ef708820fe84b4584ed0e0faa7353b",
+    "benchmark/inputs/ridge_communication_2026101303/input_aware_48.npz": "9d6d4315b701eaca48f68ce56e06abd0ee7f7b31ab1d747465e178239a9a9c96",
+    "benchmark/inputs/ridge_communication_2026101303/task.json": "830e73755e03677ddfbcef53b7425b08f4e02f20fc9244a4682b57618c3a7c07",
+    "benchmark/inputs/transport_energy_2026101301/baseline.npz": "01de73afae5ee9a5dff33ab5af6bb8250cc037326abdf11d1e69c327f280b290",
+    "benchmark/inputs/transport_energy_2026101301/contract.json": "844df0241ec96036ddfb1771a31431b678b1fcfaac1119722baa47423df7458e",
+    "benchmark/inputs/transport_energy_2026101301/dem.npz": "7a0eb00083dc69056760be14c3feb2ca5ae9e8043d691b1136aa28d2ecf8dacd",
+    "benchmark/inputs/transport_energy_2026101301/full_mother.npz": "b47f83be8f37779cec115cbf8730d85609243175b90344d5f67a57ae66588625",
+    "benchmark/inputs/transport_energy_2026101301/input_aware_48.npz": "abf22b554e62aceb35313f0cf9c3611fa3709c730e48031fa4851805ed4de954",
+    "benchmark/inputs/transport_energy_2026101301/task.json": "9336cfca9aa985715cf74e8e1863a28eab7b7f00dd7e539721f74aa578a63deb",
+    "benchmark/inputs/transport_energy_2026101302/baseline.npz": "01de73afae5ee9a5dff33ab5af6bb8250cc037326abdf11d1e69c327f280b290",
+    "benchmark/inputs/transport_energy_2026101302/contract.json": "9fca0e2d6d49f13d58001933ac827ad5e6a390e7e9be8833f1c11ea7725bb028",
+    "benchmark/inputs/transport_energy_2026101302/dem.npz": "7a0eb00083dc69056760be14c3feb2ca5ae9e8043d691b1136aa28d2ecf8dacd",
+    "benchmark/inputs/transport_energy_2026101302/full_mother.npz": "b47f83be8f37779cec115cbf8730d85609243175b90344d5f67a57ae66588625",
+    "benchmark/inputs/transport_energy_2026101302/input_aware_48.npz": "abf22b554e62aceb35313f0cf9c3611fa3709c730e48031fa4851805ed4de954",
+    "benchmark/inputs/transport_energy_2026101302/task.json": "ed9707309e7eab12233f321830a9e9b8e3a24da1f31a0a74707516ce9b07db99",
+    "benchmark/inputs/transport_energy_2026101303/baseline.npz": "01de73afae5ee9a5dff33ab5af6bb8250cc037326abdf11d1e69c327f280b290",
+    "benchmark/inputs/transport_energy_2026101303/contract.json": "93c6387528435468c3acf9727082b52b200affd1b5260f54c5b0ea4735a56de2",
+    "benchmark/inputs/transport_energy_2026101303/dem.npz": "7a0eb00083dc69056760be14c3feb2ca5ae9e8043d691b1136aa28d2ecf8dacd",
+    "benchmark/inputs/transport_energy_2026101303/full_mother.npz": "b47f83be8f37779cec115cbf8730d85609243175b90344d5f67a57ae66588625",
+    "benchmark/inputs/transport_energy_2026101303/input_aware_48.npz": "abf22b554e62aceb35313f0cf9c3611fa3709c730e48031fa4851805ed4de954",
+    "benchmark/inputs/transport_energy_2026101303/task.json": "86725a75cef7ce06e494f7e842fd60db007025d890e7fb3e9148f04dde9fc43d"
+  },
+  "scope": "全部21任务均为合成，服务计数是delivery requests；每任务独立资源容量。"
+}

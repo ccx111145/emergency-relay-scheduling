@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+benchmark/results/
+benchmark/输入清单.json
+benchmark/inputs/*__ready/
+case_processing/inputs/
+case_processing/results/
+source_data/
+public_data/
+reports/
+*.log

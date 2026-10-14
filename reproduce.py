@@ -15,7 +15,7 @@ def run_checked(runtime,tag,domain,N,B,budget,out):
   command=[sys.executable,'-B','-c',"import sys;sys.path.insert(0,sys.argv[1]);from solve import run;run(sys.argv[2],sys.argv[3],int(sys.argv[4]),int(sys.argv[5]),float(sys.argv[6]),sys.argv[7])",str(runtime),tag,domain,str(N),str(B),str(budget),str(out)]
  subprocess.run(command,check=True);subprocess.run([sys.executable,'-B',str(runtime/'audit.py'),str(out)],check=True)
 def benchmark(budget):
- verify();runtime=ROOT/'benchmark';tags=[x['tag'] for x in json.loads((ROOT/'benchmark_manifest.json').read_text())['tasks']];records=[]
+ verify();runtime=ROOT/'benchmark';subprocess.run([sys.executable,'-B',str(runtime/'prepare_domains.py'),'--check'],check=True);tags=[x['tag'] for x in json.loads((ROOT/'benchmark_manifest.json').read_text())['tasks']];records=[]
  for tag in tags:
   for domain in ['baseline','full_mother']:
    for N,B in [(1,2),(1,3),(2,2),(2,3)]:

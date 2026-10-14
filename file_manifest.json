@@ -22,8 +22,8 @@
     },
     {
       "file": "reproduce.py",
-      "bytes": 4275,
-      "sha256": "c770abea81da2a8d34dcbebfe5fbf4725aba2336a7f8fc41659d2791a4b4bf62"
+      "bytes": 4368,
+      "sha256": "717d4fa87b6294a94b8aa11860f6de4db6de9f285069b8d4c476f98aab397f0e"
     },
     {
       "file": "requirements.txt",
@@ -69,6 +69,11 @@
       "file": "benchmark/model.py",
       "bytes": 6202,
       "sha256": "2bce0e4fb0af6d421317b6b6c9ae057f4e27c79ce1e4ca2d3b8b67e5b9770a9e"
+    },
+    {
+      "file": "benchmark/prepare_domains.py",
+      "bytes": 1092,
+      "sha256": "af54a77438df6525d332d69075262d8b7dbd4239c40b589dba0ebced028df2af"
     },
     {
       "file": "benchmark/service_candidate_solver.py",
